@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forminput.css">
+    <title>Checkpoint Form</title>
+</head>
+
+<body>
+    <div class="checkpoint-form">
+        <form action="post">
+            <div class="flex-container">
+                <label for="pCode">Point Code:</label>
+                <input type="text" name="point-code" id="pCode">
+                <img src="icons/qrcode-solid.svg" alt="qr-code" width="20" height="20" class="custom-btn">
+            </div>
+            <div class="flex-container">
+                <label for="pAlias">Point Alias:</label>
+                <input type="text" name="point-alias" id="pAlias">
+            </div>
+            <div class="flex-container">
+                <label for="pNotes">Point Notes:</label>
+                <textarea id="pNotes"></textarea>
+            </div>
+            <div class="flex-container">
+                <label for="lat">Latitude:</label>
+                <input type="number" step="0.000004" name="latitude" id="lat">
+            </div>
+            <div class="flex-container">
+                <label for="long">Longitude:</label>
+                <input type="number" step="0.000004" name="longitude" id="long">
+            </div>
+            <div class="flex-container">
+                <label for="g-radius">GeoFence Radius:</label>
+                <input type="number" step="0.000004" name="GeoFence-Radius" id="g-radius">
+            </div>
+            <div class="flex-container checkbox">
+                <label for="g-enable">GeoFence Enabled:</label>
+                <input type="checkbox" name="g-Enabled" id="g-enable">
+            </div>
+            <div class="flex-container">
+                <label for="b-office">Branch Office:</label>
+                <select name="b-office" id="b-office">
+                    <option value="" disabled selected>Select an option</option>
+                </select>
+            </div>
+            <div class="flex-container">
+                <label for="client">Client:</label>
+                <select name="client" id="client">
+                    <option value="" disabled selected>Select an option</option>
+                </select>
+            </div>
+            <div class="flex-container">
+                <label for="site">Site:</label>
+                <select name="site" id="site">
+                    <option value="" disabled selected>Select an option</option>
+                </select>
+            </div>
+            <div class="flex-container checkbox">
+                <label for="lock">Lock:</label>
+                <input type="checkbox" name="lock" id="lock">
+            </div>
+            <div class="flex-container">
+                <label for="c-map">Custom Maps:</label>
+                <select name="c-map" id="c-map">
+                    <option value="" disabled selected>Select an option</option>
+                </select>
+                <img src="icons/location-crosshairs-solid.svg" alt="mylocation" width="20" height="20"
+                    class="custom-btn">
+                <img src="icons/eye-slash-regular.svg" alt="not-visible" width="20" height="20" class="custom-btn">
+            </div>
+            <div class="flex-container">
+                <label for="client-site-code">Client Site Code:</label>
+                <input type="text" name="client-site-code" id="client-site-code">
+            </div>
+            <div class="flex-container">
+                <label for="checkpoint">Check Point:</label>
+                <input type="text" name="checkpoint" id="checkpoint">
+            </div>
+            <div class="form-buttons">
+                <button type="submit">Save</button>
+                <button type="reset" style="background-color: rgb(170, 62, 62);">Reset</button>
+            </div>
+    </div>
+    </form>
+    </div>
+</body>
+
+</html>

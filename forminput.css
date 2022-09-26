@@ -1,0 +1,87 @@
+body{
+    margin: auto;
+    padding: 0%;
+}
+.checkpoint-form{
+    width:40%;
+    padding: 0%;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 10px;
+}
+form{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+form label{
+    width: 15rem;
+    text-align: right;
+    margin: 5px;
+}
+form input{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin:5px;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+#pCode{
+    width: 76.5%;
+}
+#g-enable,#lock{
+    width: max-content;
+}
+.checkbox{
+    width: 100%;
+    margin-left: -15%;
+}
+#b-office,#client,#site{
+    width: 95%;
+}
+
+textarea{
+    position: relative;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin: 10px;
+}
+select{
+    position: relative;
+    width: 65%;
+    padding: 10px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 5px;
+    margin: 10px;
+}
+.form-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    width: 150px;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(116, 179, 231);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.custom-btn{
+    background-color: rgb(233, 140, 140);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
